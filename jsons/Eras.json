@@ -169,7 +169,7 @@
         ]
     },
     {
-        "name": "Modern era", //Ancient name "Modern era"
+        "name": "Sixth age", //Ancient name "Modern era"
         "researchAgreementCost": 350,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
