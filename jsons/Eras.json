@@ -3,7 +3,7 @@
     // I also did some testing in the official version, but by far not all
 
     {
-        "name": "Ancient era",
+        "name": "First age", //Ancient name "Ancient era"
         "researchAgreementCost": 150,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
         "startingWorkerCount": 0,
@@ -31,7 +31,7 @@
         "iconRGB": [255, 87, 35]
     },
     {
-        "name": "Classical era",
+        "name": "Second age", //Ancient name "Classical era"
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
@@ -61,7 +61,7 @@
         "iconRGB": [233, 31, 99]
     },
     {
-        "name": "Medieval era",
+        "name": "Third age", //Ancient name "Medieval era"
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
@@ -96,7 +96,7 @@
         "iconRGB": [157, 39, 176]
     },
     {
-        "name": "Renaissance era",
+        "name": "Fourth age", //Ancient name "Renaissance era"
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
@@ -130,7 +130,7 @@
         "iconRGB": [104, 58, 183]
     },
     {
-        "name": "Industrial era",
+        "name": "Fifth age", //Ancient name "Industrial era"
         "researchAgreementCost": 300,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
@@ -169,7 +169,7 @@
         ]
     },
     {
-        "name": "Modern era",
+        "name": "Modern era", //Ancient name "Modern era"
         "researchAgreementCost": 350,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
@@ -209,7 +209,7 @@
         ]
     },
     {
-        "name": "Atomic era",
+        "name": "Atomic era", //Ancient name "Atomic era"
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
@@ -250,7 +250,7 @@
         ]
     },
     {
-        "name": "Information era",
+        "name": "Information era", //Ancient name "Information era"
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
