@@ -25,7 +25,6 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
@@ -492,7 +491,6 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
@@ -508,7 +506,6 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
 		"promotions": ["[Mohawk Warrior] ability"],
 		"attackSound": "metalhit"
@@ -522,7 +519,6 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -540,7 +536,6 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 	},
 	{
@@ -554,7 +549,6 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
 	},
@@ -746,7 +740,6 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -760,7 +753,6 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"promotions": ["Shock I", "Great Generals II"],
 		"attackSound": "metalhit"
