@@ -1,0 +1,39 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+	},
+
+	{
+		"name": "Dwarves -FastDoubloon115_",
+		"leaderName": "Dain II",
+		"style": "Dwarven",
+		"adjective": ["Dwarven"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Glory be to you Dain Ironfoot",
+		"startIntroPart2": "You have taken the throne after the death of your father at the hand of Azog the Defiler. Since then, you have been on a path of vengeance, leading your nation from the Iron hills and the Misty mountains back their former glory. Will you be the leading force blocking evil from the path north or will you be crushed under Rhun hordes or the hostility of the inhabitants of Mirkwook ? Only you can answer this question.",
+		
+		"declaringWar": "I smell battle!",
+		"attacked": "I will not stand down before you, be ready for our vengeance!",
+		"defeated": "What a sad day that saw the sons of Durin fall under the dark.",
+		"introduction": "I am Dain Ironfoot, leader of the dwarves !",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [219, 210, 75],
+		"innerColor": [89, 88, 74],
+		"uniqueName": "Sons of Aule",
+		"uniques": [
+			"[-15]% construction time for [Mine] improvements",
+			],
+		"cities": ["Erebor","Esgaroth","Ered Luin","Iron Hills","Belegost","Nogrod","Azanulbizar","Redhorn","Tumunhazar","Khazad Dum","Glittering Caves","Mount Dolmed","Silver Tooth","Caradhras","Fanuidhol","Anghabar","Amon Rudh","Mickleburg","Gabilgathol"]
+	},
+
+]
