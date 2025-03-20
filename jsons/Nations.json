@@ -1,17 +1,204 @@
 [
-	//Spectator
+	// Spectator
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	},
-
+	
+	// Nations
+		{
+		"name": "Gondor",
+		"leaderName": "Aragorn",
+		"adjective": ["Gondorian"],
+		"style": "motw",
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hi Aragorn, heir to the ancient kings !",
+		"startIntroPart2": "You have come back to the ivory tower to lead your people against their many foes. The ancient evil is rising in the east, but danger may also com from the south and the haradrim or the north from the easterlings, the dwarves or even the elves. Will your allies in Rohan be ready to answer the call or will they be too occupied with Isengard ? Only you can now save and rebuild a strong and safe Gondor nation and... who knows, maybe reunite Gondor and Arnor ?",
+		
+		"declaringWar": "For the White City!",
+		"attacked": "The light of the West will prevail from this agression !",
+		"defeated": "It is over, will the light disappear from Middle Earth ?",
+		"introduction": "I am Aragorn Elessar, heir of Isildur!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [1, 0, 84],
+		"innerColor": [255,255,255],
+		"uniqueName": "For the White City",
+		"uniques": [
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"[Great General] is earned [50]% faster"
+			],
+		"cities": ["Minas Tirith","Osgiliath","Ithilien","Cair Andros","Dol Amroth","Lamedon","Henneth Annun","Lossarnach","Lebennin","Anfalas","Belfalas","Morthond","Ringlo Vale","Andrast","Pelargir","Linhir","Tarnost","Ethring"]
+	},
 	{
-		"name": "Dwarves -FastDoubloon115_",
-		"leaderName": "Dain II",
-		"style": "Dwarven",
-		"adjective": ["Dwarven"],
+		"name": "Mordor",
+		"leaderName": "Sauron",
+		"adjective": ["Mordor"],
+		"style": "orc",
+		"startBias": ["Mordor Plains"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hail to Sauron, the reborn star of the East",
+		"startIntroPart2": "For too long have you been running, after flying Numenor, and later Dol Guldur, your forces are now strong enough to reveal yourself and lead them to a new age of glory. Rally your allies and crush your ennemies to make Middle Earth and later Arda kneel before you. You are the only power worth standing.",
+		
+		"declaringWar": "You cannot hide!",
+		"attacked": "The Eye sees all, I will crush you!",
+		"defeated": "I will be reborn again.",
+		"introduction": "I am Sauron!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [107, 0, 0],
+		"innerColor": [207, 120, 0],
+		"uniqueName": "Gather them all!",
+		"uniques": [
+			"[+20]% Strength <when attacking>",
+			"[-10]% Strength <when defending>",
+			"[+25]% Production when constructing [Land] units [in all cities]",
+			"[-25]% maintenance costs <for [All] units>",
+			],
+		"cities": ["Barad Dur","Orodruin","Gorgoroth","Udun","Nurn","Dagorlad","Durthang","Cirith Gorgor","Ered Lithui","Ered Duath","Cirith Ungol","Morgul Pass","Black Gate","Nargroth","Morgai","Morannon","Seregost","Lithlad","Carach Angren"]
+	},
+	{
+		"name": "Rohan",
+		"leaderName": "Theoden",
+		"adjective": ["Rohan"],
+		"style": "motw",
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hi Theoden, master of the horses !",
+		"startIntroPart2": "You have awaken from your long slumber, and now the rohirrims are counting on you to lead them to a brighter tomorrow. Your neighbours won't leave you much room for peace and you may have to carve your peace with the tip of the spear. But, thanks to your leadership, Rohan might become strong enough to tip the scale in a war between Gondor and Mordor, who knows ?",
+		
+		"declaringWar": "Muster the Rohirrim!",
+		"attacked": "I see, we will gather the Rohirrims for war.",
+		"defeated": "It is over but I shall not be ashamed.",
+		"introduction": "I am Theoden, King of Rohan!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [2, 112, 11],
+		"innerColor": [224, 218, 157],
+		"uniqueName": "The great plains of Rohan",
+		"uniques": [
+			"[+1] Movement <for [Horses] units>",
+			"Double quantity of [Horses] produced",
+			"[+1 Food] from every [Horses]",
+			"[-25]% Culture cost of natural border growth [in all cities]"
+			],
+		"cities": ["Edoras","Helm's Deep","Snowbourn","Aldburg","Dunharrow","Grimslade","Fords of Isen","Gap of Rohan","Eastemnet","Eastfold","Westemnet","Folde","Westfold","The Wold","West-March","Minhiriath","Meduseld","Framsburg"]
+	},
+	{
+		"name": "Isengard",
+		"leaderName": "Saruman",
+		"adjective": ["Isengard"],
+				"style": "Orc",
 		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hi Saruman, Leader of the mighty Istari",
+		"startIntroPart2": "After hundreds of years, the evil power of the east is returning and this time, good intentions won't be enough to stop it. As the leader of the Istari, sent from the West, you alone could even dream of facing him. But do you have the strengh you need or do you need to carve yourself a great empire before facing leading the offensive ? History will decide.",
+		
+		"declaringWar": "A new power is rising!",
+		"attacked": "So you have chosen... death.",
+		"defeated": "Save your pity and your mercy, I have no use for it!",
+		"introduction": "I am Saruman!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [64, 64, 64],
+		"innerColor": [255,255,255],
+		"uniqueName": "The Voice of Saruman",
+		"uniques": [
+			"[+100]% XP gained from combat <for [All] units> <in [Enemy Land] tiles>",
+			"[Gold] cost of purchasing [All] units [-25]%"
+			],
+		"cities": ["Isengard","Angrenost","Fords of Isen","Nan Curunir","Dol Baran","Angren River","Gwathlo","Methedras","Adorn","Wellinghall","Dunbog","Starkmoor","Pren Gwydh","Bonevales","Ral Methedras","Derndingle"]
+	},
+	{
+		"name": "Angmar",
+		"leaderName": "Witch-king",
+		"adjective": ["Angmar"],
+		"startBias": ["Tundra"],
+		"style": "Orc",
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hi King of Nine Riders",
+		"startIntroPart2": "The West is weak, Arnor is on its knees, Gondor is attacked on all sides, the elves and the dwarves are closing themselves from the outside. It is time to rise again and carve yourself a new kingdom. You can be the trusted and worthy servant of Sauron, or who knows, even seize the opportunity to be the new successor of Melkor and use the One Ring to rule over all living things on Middle Earth. The World may now be yours to grasp !",
+		
+		"declaringWar": "No man can defeat me!",
+		"attacked": "Do you not know death when you see it, old man ? This is my hour!",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "I am Witch-King!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [19, 38, 64],
+		"innerColor": [87, 123, 173],
+		"uniqueName": "Terror of the North",
+		"uniques": [
+			"[-20]% Strength <for [Enemy] units> <in [Friendly Land] tiles>",
+			"[+1 Production] from [Toundra] tiles [in all cities] <in tiles without [Forest]> <in tiles without [Hill]>",
+			"[+1 Food] from [Toundra] tiles [in all cities]",
+			],
+		"cities": ["Carn Dum","Angmar","Forodwaith","East Angmar","Northern Hills","Dor Daedeloth","Forochel","Malenhad","Nan Gurth","Gorothlad","Gundabad","Himbar","Urugarth","Aughaire"]
+	},
+	{
+		"name": "Goblins",
+		"leaderName": "Azog",
+		"adjective": ["Goblin"],
+		"startBias": ["Hill"],
+		"style": "Orc",
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Glory to you Azog",
+		"startIntroPart2": "For too long have you been crawling under the earth. Humans are now at war with each other and under attack from the east, not to speak of the elven kingdoms and the dwarves. Your time has come. Will you be able to make a great nation for your master or will you stay hidden under the mountain ? Your future will depends on your actions, you must now earn the fear your people placed upon you !",
+		
+		"declaringWar": "Argh!",
+		"attacked": "Let the lands run with blood! Slaughter them all.",
+		"defeated": "If it is not me, it will be another, be ready to die.",
+		"introduction": "I am Azog of Moria, you stink of fear!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [54, 31, 33],
+		"innerColor": [125, 145, 26],
+		"uniqueName": "Horror of the Deeps",
+		"uniques": [
+			"[+25]% Production when constructing [Land] units [in all cities]",
+			"[-25]% maintenance costs <for [All] units>",
+			"[+1 Production] from [Mountain] tiles [in all cities]"
+			],
+		"cities": ["Moria","Goblin town","Withered Heath","Ettenmoors","High Pass","Misty Mountains","Grey Mountains","Dwarrodelf","Glaurung","Ancalagon","Scatha","Gram Mountain","Rhimdath","Cold Fields","Hoardale"]
+	},
+	{
+		"name": "Dwarves",
+		"leaderName": "Dain II",
+				"style": "Dwarven",
+		"adjective": ["Dwarven"],
+		"startBias": ["Hill", "Moutain"],
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Glory be to you Dain Ironfoot",
@@ -31,9 +218,220 @@
 		"innerColor": [89, 88, 74],
 		"uniqueName": "Sons of Aule",
 		"uniques": [
-			"[-15]% construction time for [Mine] improvements",
+			"Can build [Mine] improvements at a [+20]% rate",
+			"[+1 Production] from every [Mine] <after discovering [Iron Working]>",
+			"[+1 Culture] from every [Quarry]",
+			"[+1 Production] from every [terrace farm] <after discovering [Engineering]>",
+			"[+1 Production] from every [Mine] <after discovering [Iron Working]>",
+			"[+1 Production] from every [Strategic resource] <in [Mine] tiles>",
+			"[+1 Production] from every [Luxury resource] <in [Mine] tiles>",
+			"[+1 Production] [in all cities]",
 			],
 		"cities": ["Erebor","Esgaroth","Ered Luin","Iron Hills","Belegost","Nogrod","Azanulbizar","Redhorn","Tumunhazar","Khazad Dum","Glittering Caves","Mount Dolmed","Silver Tooth","Caradhras","Fanuidhol","Anghabar","Amon Rudh","Mickleburg","Gabilgathol"]
 	},
+	{
+		"name": "Rhun",
+		"leaderName": "Khamul",
+		"adjective": ["Easterling"],
+				"style": "Mote",
+		"startBias": ["Plains","Desert"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "From the shadowed lands of the East rises Rhûn, a realm torn between ancient honor and the allure of power.",
+		"startIntroPart2": "Will its people forge their path in allegiance to darkness, or will they defy fate and stand for the light?",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "I am Khamul!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [161, 142, 21],
+		"innerColor": [110, 47, 2],
+		"uniqueName": "Riders of the desert",
+		"uniques": [
+			"[+1 Culture, +1 Science, +2 Food, +1 Production] from each Trade Route",
+			],
+		"cities": ["Rhun","Sea of Rhun","Orocarni","Helcar","Hildorien","Balcoth","Romenor","Kalorme","Red Mountains","Brown Lands","Ninwi","Trui","East Lands","Ithrun Luin","Cuiviened","Rum"]
+	},
+	{
+		"name": "Harad",
+		"leaderName": "Suladan",
+		"adjective": ["Haradrim"],
+		"startBias": ["Desert"],
+				"style": "Mote",
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "From the deserts of the South, Harad rises, torn between shadow and redemption.",
+		"startIntroPart2": "Will its strength fuel darkness, or light the path to freedom?",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "I am Suladan!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [167, 110, 12],
+		"innerColor": [101, 10, 18],
+		"uniqueName": "Desert Warriors",
+		"uniques": [
+			"[+2 Culture, +1 Food] from every [Oasis]",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+			],
+		"cities": ["Harad","Haradwaith","Harondor","Far Harad","Sunland","Sutherland","Khand","Incanus","Harnen","Hasharin","Dalamyr","Karna","Badharkan","Hidar","Nafarat","Abrakan","Sunlending","Dharan"]
+	},
+	{
+		"name": "Elves",
+		"leaderName": "Elrond",
+		"adjective": ["Noldor"],
+				"style": "Elven",
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Timeless and skilled, the Elves walk between fading past and future hope.",
+		"startIntroPart2": "Will they leave or fight to shape Middle-earth?",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "I am Elrond!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [235, 223, 91],
+		"innerColor": [36, 98, 102],
+		"uniqueName": "Blessings of the Valar",
+		"uniqueText": "RP specific civilisation, no settlers, no borders, only specialists, unique units to defend there homes and make it virtually impregnable",
+		"uniques": [
+			"Cannot build [Settler] units",
+			"[+99999]% Culture cost of natural border growth [in all cities]",
+			"[+99999]% Gold cost of acquiring tiles [in all cities]"
+			"Gain a free [Haven] [in all cities]"
+			],
+		"cities": ["Rivendell","Imladris","Bruinen","Hithaeglir","Hollin","Ost-in-Edhil","Glad Ereg","Sirannon","Mirdam","Emun Naer","Mitheithel","Hoarwell","Glanduin","Nin-in-Eilp","Gath Ulor","Urugarth","Duvumen"]
+	},
+	{
+		"name": "The Shire",
+		"leaderName": "Peregrin Took",
+		"adjective": ["Shire"],
+		"style": "hobbit",
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "In the rolling green hills of the Shire, a simple and peaceful folk dwell, cherishing the joys of hearth and home.",
+		"startIntroPart2": "Yet even amidst their quiet lives, these hobbits may find themselves shaping the fate of a world far greater than their own.",
+		
+		"declaringWar": "Hobbits never go to war. But this time, you deserve it",
+		"attacked": "We Hobbits may not have a real military, but we sure know how to defend ourselfs in times of need",
+		"defeated": "Now it is over, the Shire is no more. One merry place less in Middle Earth",
+		"introduction": "I am Peregrin Took, thirty second Thain of the Shire!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [159, 176, 97],
+		"innerColor": [119, 39, 190],
+		"uniqueName": "The Road goes ever on",
+		"uniques": [
+			"[+1 Happiness] in cities on [Grassland] tiles",
+			"[+1 Culture] from every [Road] <during a Golden Age>",
+			"[-50]% maintenance on road & railroads",
+			"[-15]% maintenance cost for buildings [in all cities]"
+			],
+		"cities": ["Michel Delving","Tuckborough","Hobbiton","Waymoot","Bywater","Tookbank","Longbottom","Oatborton","Gamwich","Frogmorton","Whitfurrows","Brokenborings","Whitfurrows","Long Cleeve","Hardbottle","Whitwell","Scary","Dwaling","Little Delving","Overhill","Needlehole","Nobottle","Bucklebury","Crickhollow","Greenholm","Undertowers"]
+	},
+	//City states
+	{
+		"name": "Beorn's Hall",
+		"adjective": ["Beorn's Hall"],
+		"cityStateType": "Artisans",
+		"uniques": [
+			"[+1 Science] from [Pasture] tiles [in all cities]",
+		],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185,132,66],
+		"cities": ["Beorn's Hall"]
+	},
+	{
+		"name": "Tom Bombadil's House",
+		"adjective": ["Tom Bombadil's House"],
+		"cityStateType": "Farmers",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [62,197,252],
+		"cities": ["Tom Bombadil's House"]
+	},
+	{
+		"name": "Grey Havens",
+		"adjective": ["Elven"],
+		"cityStateType": "Curators",
+		"startBias": ["Coast"],
 
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211, 220, 103],
+		"cities": ["Gray Havens"]
+	},
+	{
+		"name": "Dale",
+		"adjective": ["Dale"],
+		"cityStateType": "Traders",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [194,97,255],
+		"cities": ["Dale"]
+	},
+	{
+		"name": "Dunland",
+		"adjective": ["Dunland"],
+		"cityStateType": "Warriors",
+
+		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
+		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Dunland!",
+		"defeated": "A lonely wind blows through the highlands today. A dirge for Dunland. Can you hear it?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Dunland"]
+	},
+	
+	
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,10,10],
+		"style": "Barbarians",
+		"uniques": ["Can only heal by pillaging", 
+					"[Recon] units gain the [No Suicide] promotion", 
+					"[Sword] units gain the [No Suicide] promotion", 
+					"[Gunpowder] units gain the [No Suicide] promotion", 
+					"[Anti-Cav] units gain the [No Suicide] promotion", 
+					"[Armored] units gain the [No Suicide] promotion", 
+					"[+15]% Strength <within [1] tiles of a [Barbarian encampment]>"]
+	}
 ]
