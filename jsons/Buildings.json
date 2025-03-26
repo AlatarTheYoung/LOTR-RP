@@ -20,13 +20,14 @@
 	{
 		"name": "Haven",
 		"uniqueTo": "Elves",
-		"specialistSlots": {"Farmer": 12, "Crafter":12, "Trader":6},
+		"specialistSlots": {"Gatherer": 12, "Crafter":12, "Trader":6},
 		"cost": 0,
 		"uniques": [
+			"Automatically built in all cities where it is buildable",
 			"Unsellable",
 			],
 		"civilopediaText": [
-			{"text": "A residence of a civilization's ruler."}
+			{"text": "The hearth of an elven home, safe away from the world."}
 		]
 	},
 	{
@@ -249,6 +250,21 @@
 		]
 	},
 	{
+		"name": "Orthanc",
+		"uniqueTo":"Isengard",
+		"cityStrength": 10,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Gain a free [Walls] [in this city]",
+			"Automatically built in all cities where it is buildable",
+            "Only available <in [Capital] cities>",
+			"Unbuildable",
+			],
+		"civilopediaText": [
+			{"text": "Ancient tower from a forgotten time."}
+		]
+	},
+	{
 		"name": "Fortified Walls",
 		"uniqueTo": "Malus",
 		"replaces": "Walls",
@@ -370,32 +386,6 @@
 		]
 	},
 	{
-		"name": "Fertile Catalyst",
-		"replaces": "Water Mill",
-		"uniqueTo": "'Nkuhanea",
-		"maintenance": 2,
-		"food": 2,
-		"production": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]", "[+1 Food] from [River] tiles [in this city]", "[+1 Faith] per [5] population [in this city]"],
-		"requiredTech": "The Wheel",
-		"civilopediaText": [
-			{"text": "Blessing of nature, increase yield from river tiles and bonus faith for every 5 population."}
-		]
-	},
-	{
-		"name": "Pillar of Life",
-		"uniqueTo": "The Shinso",
-		"cost": 250,
-		"food": "4",
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isNationalWonder": true,
-		"uniques": ["[+10]% growth [in all cities]", 
-					"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Wealth]> <in cities without a [Pillar of Faith]>", 
-					"Will not be displayed in Civilopedia"],
-		"requiredTech": "The Wheel"
-	},
-	{
 		"name": "Dai Palgum",
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
@@ -416,19 +406,6 @@
 		]
 	},
 	{
-		"name": "Arena of Blood",
-		"replaces": "Colosseum",
-		"uniqueTo": "Ilythiir",
-		"maintenance": 0,
-		"happiness": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold, +1 Happiness] [in this city] <when at war>"],
-		"requiredTech": "Construction",
-		"civilopediaText": [
-			{"text": "An arena where qualification of Tharsara competition were held, sacred event for Drow to prove their self."}
-		]
-	},
-	{
 		"name": "The Great Colosseum",
 		"cost": 150,
 		"happiness": 5,
@@ -437,22 +414,6 @@
 		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", 
 					"Cost increases by [25] per owned city"],
 		"requiredTech": "Construction"
-	},
-	{
-		"name": "Sacred Dance",
-		"replaces": "The Great Colosseum",
-		"uniqueTo": "Erhab",
-		"cost": 150,
-		"happiness": 5,
-		"culture": 5,
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", 
-					"Cost increases by [25] per owned city", 
-					"[+10]% Strength <for [Land] units> <when defending>"],
-		"requiredTech": "Construction",
-		"civilopediaText": [
-			{"text": "A body strengthening ritual, held once a year. Nobody know who invented it, this ritual has been passed down from generation to generation"}
-		]
 	},
 	{
 		"name": "Brahula",
@@ -475,16 +436,18 @@
 		]
 	},
 	{
-		"name": "Sulong's Training",
+		"name": "Training Fields",
+		"uniqueTo": "Mordor",
 		"replaces": "Barracks",
-		"uniqueTo": "Townfolk",
-		"happiness": 2,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] XP [in this city]"],
+		"uniques": [
+			"Destroyed when the city is captured", "New [Military] units start with [15] XP [in this city]",
+			"[+10]% Production when constructing [Land] units [in this city]",
+			],
 		"requiredTech": "Bronze Working",
 		"civilopediaText": [
-			{"text": "A method to control one's emotion and power, created by Raflar Sulong, a beastman, for beastmen."}
+			{"text": "A place deep in the volcanic lands of Mordor, where the legions of Mordor are trained are prepared for the wars ahead."}
 		]
 	},
 	{
@@ -514,24 +477,6 @@
 		]
 	},
 	{
-		"name": "Crypt of the Unliving",
-		"uniqueTo": "Eldariya",
-		"replaces": "Pyramid",
-		"cityStrength": 7,
-		"cityHealth": 50,
-		"culture": 3,
-		"requiredBuilding": "Monument",
-		"maintenance": 0,
-		"hurryCostModifier": 25,
-		"specialistSlots": {"Artist": 1},
-		"uniques": ["Destroyed when the city is captured", "Doubles Gold given to enemy if city is captured",
-					"All newly-trained [{Military} {Land}] units [in this city] receive the [Dominion Patrol] promotion"],
-		"requiredTech": "Philosophy",
-		"civilopediaText": [
-			{"text": "Ceremonial building, yet so strong, which also operated as fortress by the Eldars."}
-		]
-	},
-	{
 		"name": "Temple",
 		"faith": 2,
 		"requiredBuilding": "Shrine",
@@ -542,48 +487,6 @@
 		"civilopediaText": [
 			{"text": "A religious building where the faithful can come together to worship."}
 		]
-	},
-	{
-		"name": "Hymn House",
-		"replaces": "Temple",
-		"uniqueTo": "Louvargia",
-		"faith": 2,
-		"requiredBuilding": "Shrine",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["Only available <when religion is enabled>", "[+1 Faith] from [Incense] tiles [in this city]", 
-					"[+1 Culture] per [3] population [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Philosophy",
-		"civilopediaText": [
-			{"text": "Pious Louvargians built this structure to worship and praise their Goddess."}
-		]
-	},
-	{
-		"name": "Infernal Gate",
-		"replaces": "Temple",
-		"uniqueTo": "Urush",
-		"faith": 2,
-		"requiredBuilding": "Shrine",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["Only available <when religion is enabled>", "[+1 Faith] from [Incense] tiles [in this city]", 
-					"[+25]% Production when constructing [{Military} {Land}] units [in this city]"],
-		"requiredTech": "Philosophy",
-		"civilopediaText": [
-			{"text": "The only way to enter and leave hell is through this scary gate. The gate used by Zorgorath to summon his armies from the netherworld."}
-		]
-	},
-	{
-		"name": "Pillar of Faith",
-		"uniqueTo": "The Shinso",
-		"cost": 250,
-		"faith": "4",
-		"greatPersonPoints": {"Great Artist": 1},
-		"isNationalWonder": true,
-		"uniques": ["[+1 Faith] from [Land] tiles [in all cities] <with [1] to [6] neighboring [Mountain] tiles>", 
-					"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Wealth]>", 
-					"Will not be displayed in Civilopedia"],
-		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "College",
@@ -627,22 +530,6 @@
 		"requiredTech": "Poetry"
 	},
 	{
-		"name": "Mass Grave",
-		"replaces": "National Epic",
-		"uniqueTo": "Necropoleis",
-		"cost": 150,
-		"culture": 2,
-		"faith": 2,
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
-					"[+25]% Great Person generation [in this city]", 
-					"[+8] population [in capital]"],
-		"requiredTech": "Poetry",
-		"civilopediaText": [
-			{"text": "A burial site containing multiple corpses, usually resulting from a disaster, war, or crime. Mass graves are often created to quickly bury the dead for sanitation purposes, but may also be used in the aftermath of a famine, epidemic, or natural disaster."},
-        ]
-	},
-	{
 		"name": "Academy of Magic",
 		"maintenance": 0,
 		"hurryCostModifier": 30,
@@ -650,20 +537,6 @@
 		"requiredTech": "Arcane Magic",
 		"civilopediaText": [
             {"text": "Every great magician is a product of their mentor's best training."}
-        ]
-	},
-	{
-		"name": "Draen Sanctuary",
-		"uniqueTo": "Red Moon",
-		"replaces": "Academy of Magic",
-		"food": 1,
-		"faith": 1,
-		"science": 1,
-		"maintenance": 0,
-		"uniques": ["Provides [1] [Magician]", "Free [Adept] appears"],
-		"requiredTech": "Arcane Magic",
-		"civilopediaText": [
-            {"text": "A place where the witchdraen is trained. Equipped with protective facilities for the witchdraens during the Day of Awakening."}
         ]
 	},
 	{
@@ -679,22 +552,6 @@
 		]
 	},
 	{
-		"name": "Porta Alchemica",
-		"replaces": "Courthouse",
-		"uniqueTo": "First Order",
-		"maintenance": 0,
-		"specialistSlots": {"Alchemist": 1},
-		"cost": 125,
-		"requiredTech": "Mathematics",
-		"uniques": ["Remove extra unhappiness from annexed cities", 
-					"Can only be built <in [Annexed] cities>", 
-					"Comment [Unlock Alchemica specialist slot (+2 Science, +2 Gold, +2 Production)]",
-					"Never destroyed when the city is captured", "Unsellable"],
-		"civilopediaText": [
-            {"text": "By teaching the native people about alchemy, First Order increases the chances of finding hidden geniuses."}
-        ]
-	},
-	{
 		"name": "Cetho Lighyn",
 		"greatPersonPoints": {"Great Artist": 1},
 		"food": 8,
@@ -703,18 +560,6 @@
 		"requiredTech": "Mathematics",
 		"uniques": ["Only available <after adopting [Tradition]>", "Gain a free [Garden] [in this city]"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
-	},
-	{
-		"name": "Pillar of Wealth",
-		"uniqueTo": "The Shinso",
-		"cost": 250,
-		"gold": "4",
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isNationalWonder": true,
-		"uniques": ["[+1 Gold] from every [Market]", 
-					"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Life]> <in cities without a [Pillar of Faith]>", 
-					"Will not be displayed in Civilopedia"],
-		"requiredTech": "Mathematics"
 	},
 	{
 		"name": "Heroic Epic",
@@ -945,20 +790,35 @@
         ]
 	},
 	{
-		"name": "The Foundry",
-		"replaces": "Forge",
-		"uniqueTo": "Sanctum Regalia",
-		"faith": 2,
-		"maintenance": 0,
+		"name": "Great forge",
+		"uniqueTo" : "Dwarves",
+		"replaces" : "Forge",
+		"percentStatBonus": {"gold": 10},
+		"production" : 3,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Comment [Research Theology vs Metal Casting]", 
-					"Comment [Can be built in all cities]", 
-					"[+15]% Production when constructing [Land] units [in this city]",
-					"[+1 Production] from [Iron] tiles [in this city]"
-					"All newly-trained [{Military} {Land}] units [in this city] receive the [Unwavering Faith] promotion"],
-		"requiredTech": "Theology",
+		"uniques": [
+			"[+15]% Production when constructing [Land] units [in this city]",
+			],
+		"requiredTech": "Metal Casting",
 		"civilopediaText": [
-            {"text": "A place where all knights are trained and are born anew, it is also a hotspot for repentance."}
+            {"text": "Dwarves forges are something else, the envy of all nations."}
+        ]
+	},
+	{
+		"name": "Foundry",
+		"replaces": "Forge",
+		"uniqueTo": "Goblins",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"uniques": ["[+20]% Production when constructing [Land] units [in this city]",
+					"[+1 Production] from [Iron] tiles [in this city]",
+					"[+1 Production] from [Mountain] tiles [in this city]",
+					],
+		"requiredTech": "Metal Casting",
+		"civilopediaText": [
+            {"text": "Far more messy than the dwarven great forge, it is still a great challenger !"}
         ]
 	},
 	{

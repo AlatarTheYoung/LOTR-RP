@@ -315,8 +315,8 @@
 		"uniques": [
 			"Cannot build [Settler] units",
 			"[+99999]% Culture cost of natural border growth [in all cities]",
-			"[+99999]% Gold cost of acquiring tiles [in all cities]"
-			"Gain a free [Haven] [in all cities]"
+			"[+99999]% Gold cost of acquiring tiles [in all cities]",
+			"Free [Shadowstrike] appears <upon founding a city>",
 			],
 		"cities": ["Rivendell","Imladris","Bruinen","Hithaeglir","Hollin","Ost-in-Edhil","Glad Ereg","Sirannon","Mirdam","Emun Naer","Mitheithel","Hoarwell","Glanduin","Nin-in-Eilp","Gath Ulor","Urugarth","Duvumen"]
 	},

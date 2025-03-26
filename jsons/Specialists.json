@@ -13,8 +13,8 @@
 	},
 	{
 		"name":"Trader",
+		"science":1,
 		"gold":3,
-		"greatPersonPoints": {"Great Merchant":3},
 		"color": [255,215,0]
 	},
 	{
@@ -30,9 +30,15 @@
 		"color": [139,69,19]
 	},
 	{
+		"name":"Gatherer",
+		"food":3,
+		"gold":1,
+		"color": [139,69,19]
+	},
+	{
 		"name":"Crafter",
 		"production":3,
-		"greatPersonPoints": {"Great Engineer":3},
+		"gold":1,
 		"color": [139,69,19]
 	},
 	{

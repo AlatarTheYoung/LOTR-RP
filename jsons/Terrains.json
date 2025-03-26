@@ -320,18 +320,6 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
-	
-	{
-		"name": "Canal",
-		"type": "TerrainFeature",
-		"occursOn": ["Coast"],
-		"movementCost": 2,
-		"uniques": ["Doesn't generate naturally",
-					"Units ending their turn on this terrain take [15] damage <for [Melee Water] units>",
-					"Units ending their turn on this terrain take [15] damage <for [Ranged Water] units>",
-					"Units ending their turn on this terrain take [15] damage <for [Submarine] units>",
-					"Units ending their turn on this terrain take [15] damage <for [Naval Carrier] units>"]
-	},
 
 	// Natural Wonders
 	{
@@ -414,7 +402,7 @@
 		"weight": 10
 	},
 	{
-		"name": "Mount Snowpeak",
+		"name": "Caradhras",
 		"type": "NaturalWonder",
 		"gold": 2,
 		"culture": 3,
@@ -432,7 +420,7 @@
 		"weight": 10
 	},
 	{
-		"name": "Arkatore",
+		"name": "Orodruin",
 		"type": "NaturalWonder",
 		"food": 2,
 		"science": 6,

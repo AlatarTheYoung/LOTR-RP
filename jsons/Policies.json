@@ -1,5 +1,110 @@
 [
 	{
+		"name":"Illuvatar",
+		"era":"Archaic age",
+		"priorities": {
+			"Neutral": 0,
+			"Cultural": 20,
+			"Diplomatic": 20,
+			"Domination": 0,
+			"Scientific": 20
+		},
+		"uniques": [
+			"Retain [+25]% of the happiness from a luxury after the last copy has been traded away",
+			],
+		"policies" : [
+			{
+				"name": "Call to Greatness",
+				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Helping Roads",
+				"uniques": ["Improves movement speed on roads"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Last Hope",
+				"uniques": ["No damage penalty for wounded units <for [All] units>"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Power of Light",
+				"uniques": ["[+20] HP when healing <for [Wounded] units>"],
+				"row": 2,
+				"column": 4,
+				"requires": ["Last Hope", "Helping Roads"],
+			},
+			{
+				"name": "Defence of the People",
+				"uniques": ["Units in cities cost no Maintenance"],
+				"row": 2,
+				"column": 1,
+				"requires": ["Call to Greatness"],
+			},
+			{
+				"name": "Illuvatar Complete",
+				"uniques": ["[-20]% Unhappiness from [Population] [in all cities]"],
+			},
+			]
+	},
+	{
+		"name":"Morgoth",
+		"era":"Archaic age",
+		"priorities": {
+			"Neutral": 0,
+			"Cultural": 0,
+			"Diplomatic": 0,
+			"Domination": 20,
+			"Scientific": 0
+			},
+		"uniques" : [
+			"[+4 Happiness] <when at war>",
+			]
+		"policies" : [
+			{
+				"name": "Pillage",
+				"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Relentless",
+				"uniques": ["No movement cost to pillage"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Despair",
+				"uniques": ["[+10]% Strength <for [Military] units> <vs [Wounded] units>"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Scorched Earth",
+				"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities"],
+				"row": 2,
+				"column": 4,
+				"requires": ["Relentless","Despair"],
+			},
+			{
+				"name": "Cruel Host",
+				"uniques": ["[8] units cost no maintenance"],
+				"row": 2,
+				"column": 1,
+				"requires": ["Pillage"],
+			},
+			{
+				"name": "Morgoth Complete",
+				"uniques": ["[-33]% Unhappiness from [Population] [in annexed cities]"],
+			},
+			]
+	},
+	
+	{
 		"name": "Tradition",
 		"era": "Archaic age",
 		"priorities": {
