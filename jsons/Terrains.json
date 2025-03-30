@@ -142,7 +142,7 @@
 		"RGB": [120, 120, 120],
 		"uniques": ["Rough terrain",
 				"Has an elevation of [4] for visibility calculations",
-				"Occurs in chains at high elevations"
+				"Occurs in chains at high elevations",
 				]
 	},
 	{
@@ -345,6 +345,19 @@
 		"happiness": 3,
 		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+					"Tile provides yield without assigned population"],
+		"turnsInto": "Plains",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Lonely Mountain",
+		"type": "NaturalWonder",
+		"gold": 5,
+		"happiness": 2,
+		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
+		"uniques": [
 					"Tile provides yield without assigned population"],
 		"turnsInto": "Plains",
 		"impassable": true,
