@@ -439,7 +439,6 @@
 	{
 		"name": "Isengard Outpost",
 		"uniqueTo": "Isengard",
-		"culture": 1,
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
