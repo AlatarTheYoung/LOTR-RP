@@ -1299,8 +1299,9 @@
 		"strength": 99,
 		"rangedStrength": 99,
 		"range": 2,
-		"uniques": [ 
-					"Unbuildable"],
+		"uniques": [
+			"[+25] Sight",
+			"Unbuildable"],
 		"attackSound": "whoosh"
 	},
 	{
