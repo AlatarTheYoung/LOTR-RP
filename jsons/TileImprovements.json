@@ -37,10 +37,10 @@
 		"shortcutKey": "T"
 	},
 	{
-		"name": "Ice-calator",
+		"name": "Fishing Village",
 		"terrainsCanBeBuiltOn": ["Snow"],
 		"turnsToBuild": 6,
-		"uniques": ["[+1 Food] for each adjacent [Ice-calator]", 
+		"uniques": ["[+1 Food] for each adjacent [Fishing Village]", 
 					"[+1 Production] for each adjacent [Strategic resource]", 
 					"[+1 Production] for each adjacent [Luxury resource]", 
 					"[+1 Production, +1 Science] for each adjacent [Great Improvement]", 
