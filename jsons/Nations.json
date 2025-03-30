@@ -157,8 +157,8 @@
 		"uniqueName": "Terror of the North",
 		"uniques": [
 			"[-20]% Strength <for [Enemy] units> <in [Friendly Land] tiles>",
-			"[+1 Production] from [Toundra] tiles [in all cities] <in tiles without [Forest]> <in tiles without [Hill]>",
-			"[+1 Food] from [Toundra] tiles [in all cities]",
+			"[+1 Production] from [Tundra] tiles [in all cities] <in tiles without [Forest]> <in tiles without [Hill]>",
+			"[+1 Food] from [Tundra] tiles [in all cities]",
 			],
 		"cities": ["Carn Dum","Angmar","Forodwaith","East Angmar","Northern Hills","Dor Daedeloth","Forochel","Malenhad","Nan Gurth","Gorothlad","Gundabad","Himbar","Urugarth","Aughaire"]
 	},
