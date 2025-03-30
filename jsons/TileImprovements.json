@@ -437,6 +437,25 @@
 			],
 	},
 	{
+		"name": "Isengard Outpost",
+		"uniqueTo": "Isengard",
+		"culture": 1,
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+            "[+1 Production, +1 Gold, +1 Science, +1 Culture]",// <in [Capital] cities>", 
+			  "Can be built just outside your borders", "Nullifies all other stats this tile provides", 
+            "Pillaging this improvement yields approximately [+20 Gold]", 
+            "Tile provides yield without assigned population", 
+            "Gain control over [{non-[Major]} {non-[AI player]} {non-[City-State]}] tiles in a [0]-tile radius", 
+        ]
+	}, 
+
+
+
+
+	
+	{
 		"name": "Lodepit",
 		"uniqueTo": "'Nkuhanea",
 		"terrainsCanBeBuiltOn": ["Hill"],
