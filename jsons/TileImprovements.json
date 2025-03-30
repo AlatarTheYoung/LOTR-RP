@@ -70,12 +70,12 @@
 	{
 		"name": "Beacon of Power",
 		"turnsToBuild": 8,
-		"techRequired": "Mana Sensing",
+		"techRequired": "Essence Knowledge",
 		"uniques": ["Can only be built to improve a resource", 
 					"Pillaging this improvement yields approximately [+12 Gold]"],
 		"shortcutKey": "B",
 		"civilopediaText": [
-			{"text": "An enclosed area dedicated to researching the ley line phenomenon."}
+			{"text": "An area dedicated to researching the history of ancient powers."}
 		]
 	},
 	{

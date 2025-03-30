@@ -221,13 +221,13 @@
 		]
 	},
 	{
-		"name": "Aknamuki",
+		"name": "Wetland Refuge",
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Must have an owned [Marsh] within [3] tiles", "[+2 Food, +3 Science, +3 Production] from [Marsh] tiles [in this city]", 
 					"[+2 Gold] from [Truffles] tiles [in this city]"],
 		"requiredTech": "Calendar",
-		"quote": "'I rose from marsh mud, algae, equisetum, willows, sweet green, noisy birds and frogs' ― Lorine Niedecker"
+		"quote": "Dreary and wearisome. Cold, clammy winter still held sway in this forsaken country."
 	},
 	{
 		"name": "Gerude",
@@ -279,7 +279,7 @@
 		]
 	},
 	{
-		"name": "Bondowoso",
+		"name": "Guildhall",
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,

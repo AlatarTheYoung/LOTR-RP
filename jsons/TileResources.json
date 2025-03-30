@@ -84,9 +84,9 @@
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
 	},
 	{
-		"name": "Ley Line",
+		"name": "Place of Power",
 		"resourceType": "Bonus",
-		"revealedBy": "Mana Sensing",
+		"revealedBy": "Essence Knowledge",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Flood plains","Hill","Tundra","Snow","Marsh"],
 		"faith": 1,
 		"improvement": "Beacon of Power",

@@ -118,7 +118,7 @@
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
-				"name": "Mana Sensing",
+				"name": "Essence Knowledge",
 				"row": 6,
 				"prerequisites": ["Trapping"],
 				"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
@@ -166,7 +166,7 @@
 			{
 				"name": "Arcane Magic",
 				"row": 6,
-				"prerequisites": ["Mana Sensing"],
+				"prerequisites": ["Essence Knowledge"],
 				"quote": "'One man's 'magic' is another man's engineering.' - Robert Heinlein"
 			},
 			{
