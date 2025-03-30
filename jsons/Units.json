@@ -263,6 +263,21 @@
 			"May capture killed [Barbarian] units <with [50]% chance>",
 			],
 		"attackSound": "metalhit",
+	}, 
+	{
+		"name": "Uruk-Hai",
+		"uniqueTo" : "Isengard",
+		"replaces" : "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 65,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
 	},
 
 	{
