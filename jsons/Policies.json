@@ -67,7 +67,10 @@
 		"policies" : [
 			{
 				"name": "Pillage",
-				"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"],
+				"uniques": [
+					"[+100]% Yield from pillaging tiles",
+					"[+100]% Health from pillaging tiles"
+				],
 				"row": 1,
 				"column": 1
 			},
