@@ -27,7 +27,13 @@
 			},
 			{
 				"name": "Last Hope",
-				"uniques": ["No damage penalty for wounded units <for [All] units>"],
+				"uniques": [
+					"[+1 Happiness, +1 Culture] [in all cities with a garrison]",
+					"[+1 Happiness, +1 Culture] from every [Palace]",
+					"[+1 Happiness, +1 Culture] from every [Walls]",
+					"[+1 Happiness, +1 Culture] from every [Castle]", 
+					"[+1 Happiness, +1 Culture] from every [Arsenal]", 
+					"[+1 Happiness, +1 Culture] from every [Countermeasures Council]"],
 				"row": 1,
 				"column": 5
 			},
@@ -40,14 +46,16 @@
 			},
 			{
 				"name": "Defence of the People",
-				"uniques": ["Units in cities cost no Maintenance"],
+				"uniques": [
+					"[+25]% Strength for cities <with a garrison>",
+					"Units in cities cost no Maintenance"],
 				"row": 2,
 				"column": 1,
 				"requires": ["Call to Greatness"],
 			},
 			{
 				"name": "Illuvatar Complete",
-				"uniques": ["[-20]% Unhappiness from [Population] [in all cities]"],
+				"uniques": ["[-50]% Food consumption by specialists [in all cities]"],
 			},
 			]
 	},
