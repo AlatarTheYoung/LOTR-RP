@@ -21,7 +21,7 @@
 			},
 			{
 				"name": "Helping Roads",
-				"uniques": ["Improves movement speed on roads"],
+				"uniques": ["Can build [Road] improvements at a [+100]% rate"],
 				"row": 1,
 				"column": 3
 			},
@@ -73,7 +73,10 @@
 			},
 			{
 				"name": "Relentless",
-				"uniques": ["No movement cost to pillage"],
+				"uniques": [
+					"Can build [Remove Forest] improvements at a [+100]% rate",
+					"Can build [Remove Jungle] improvements at a [+100]% rate"
+				],
 				"row": 1,
 				"column": 3
 			},
