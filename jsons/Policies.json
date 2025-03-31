@@ -92,27 +92,35 @@
 			},
 			{
 				"name": "Despair",
-				"uniques": ["[+10]% Strength <for [Military] units> <vs [Wounded] units>"],
+				"uniques": [
+					"[+9 Happiness]",
+					"[9] units cost no maintenance",
+					"Free [Great General] appears"
+				],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Scorched Earth",
-				"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities"],
+				"uniques": [
+					"[+10]% Strength <for [Military] units> <vs [Wounded] units>",
+					"Receive triple Gold from Barbarian encampments and pillaging Cities"],
 				"row": 2,
 				"column": 4,
 				"requires": ["Relentless","Despair"],
 			},
 			{
 				"name": "Cruel Host",
-				"uniques": ["[8] units cost no maintenance"],
+				"uniques": [
+					"[+3 Production, +3 Happiness] from every [Courthouse]",
+					"[+100]% Production when constructing [Courthouse] buildings [in all cities]"],
 				"row": 2,
 				"column": 1,
 				"requires": ["Pillage"],
 			},
 			{
 				"name": "Morgoth Complete",
-				"uniques": ["[-33]% Unhappiness from [Population] [in annexed cities]"],
+				"uniques": ["[+20]% Strength <for Air Terror] units>"],
 			},
 			]
 	},
