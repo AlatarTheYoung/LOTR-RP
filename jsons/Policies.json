@@ -21,7 +21,11 @@
 			},
 			{
 				"name": "Helping Roads",
-				"uniques": ["Improves movement speed on roads"],
+				"uniques": [
+					"Improves movement speed on roads",
+					"[-50]% maintenance on road & railroads",
+					"[-50]% construction time for [All Road] improvements"
+					],
 				"row": 1,
 				"column": 3
 			},
