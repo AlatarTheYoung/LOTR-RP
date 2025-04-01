@@ -386,14 +386,14 @@
 		]
 	},
 	{
-		"name": "Dai Palgum",
+		"name": "Trail along Brandywine River",
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Must be on [River]", "Gain a free [Water Mill] [in this city]", 
 					"[+1 Food, +1 Faith] from [River] tiles [in this city]", 
 					"Only available <when religion is enabled>"],
 		"requiredTech": "The Wheel",
-		"quote": "'A good river is nature's life work in song.' ― Mark Helprin, 'Freddy And Fredericka'"
+		"quote": "Resting place of Drogo Baggins and Primula Brandybuck"
 	},
 	{
 		"name": "Colosseum",
@@ -416,7 +416,7 @@
 		"requiredTech": "Construction"
 	},
 	{
-		"name": "Brahula",
+		"name": "The White Tower of Ecthelion",
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
@@ -451,13 +451,13 @@
 		]
 	},
 	{
-		"name": "Bubrah Tikus",
+		"name": "The Forge Under The Mountain",
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Only available <after adopting [Honor]>", "[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"requiredTech": "Bronze Working",
-		"quote": "If Gurun, Seram, Tanjung Pura, Hary, Pahang, Dompo, Bali, Sunda, Palembang, Temasek, are all defeated, I will break my fast.' - Gajah Mada"
+		"quote": "The world is grey, the mountains old, The forge's fire is ashen-cold;"
 	},
 	
 	// Heroic age
