@@ -1315,7 +1315,6 @@
 		"rangedStrength": 99,
 		"range": 2,
 		"uniques": [
-			"[+25] Sight",
 			"Unbuildable"],
 		"attackSound": "whoosh"
 	},
@@ -2140,22 +2139,7 @@
 		"strength": 15,
 		"cost": 20,
 		"obsoleteTech": "Quintessence Force",
-		"uniques": ["[+200]% Strength <when defending>", 
-					"[-75]% Strength <vs [Mage] units>", 
-					"[-75]% Strength <vs [Monk] units>", 
-					"Limited to [10] per Civilization", 
-					"Beast"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Slime",
-		"unitType": "Anti-Cav",
-		"uniqueTo": "Barbarians",
-		"movement": 2,
-		"strength": 15,
-		"cost": 20,
-		"obsoleteTech": "Quintessence Force",
-		"uniques": ["[+200]% Strength <when defending>", 
+		"uniques": ["[+100]% Strength <when defending>", 
 					"[-75]% Strength <vs [Mage] units>", 
 					"[-75]% Strength <vs [Monk] units>", 
 					"Limited to [10] per Civilization", 
