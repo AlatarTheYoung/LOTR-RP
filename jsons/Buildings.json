@@ -230,7 +230,7 @@
 		"quote": "Dreary and wearisome. Cold, clammy winter still held sway in this forsaken country."
 	},
 	{
-		"name": "Gerude",
+		"name": "Pelennor Fields",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -1743,7 +1743,7 @@
 		"name": "Utopia Project",
 		"cost": 1500,
 		"isNationalWonder": true,
-		"uniques": ["Unavailable <when number of [Completed Policy branches] is less than [6]>", "Triggers a global alert upon build start",
+		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
 	},
 	

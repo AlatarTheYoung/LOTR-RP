@@ -1060,7 +1060,7 @@
 		"requiredTech": "Domestication",
 		"obsoleteTech": "Acoustics",
 		"upgradesTo": "Educated Beast Tamer",
-		"uniques": ["May capture killed [Slime] units <with [50]% chance>", 
+		"uniques": ["May capture killed [Troll] units <with [50]% chance>", 
 					"May capture killed [Peuchen] units <with [50]% chance>", 
 					"May capture killed [Sandworm] units <with [50]% chance>", 
 					"May capture killed [Entmates] units <with [50]% chance>", 
@@ -1090,7 +1090,7 @@
 		"requiredTech": "Acoustics",
 		"obsoleteTech": "Archaeology",
 		"upgradesTo": "Elite Beast Tamer",
-		"uniques": ["May capture killed [Slime] units <with [70]% chance>", 
+		"uniques": ["May capture killed [Troll] units <with [70]% chance>", 
 					"May capture killed [Peuchen] units <with [70]% chance>", 
 					"May capture killed [Sandworm] units <with [70]% chance>", 
 					"May capture killed [Entmates] units <with [70]% chance>", 
@@ -1118,7 +1118,7 @@
 		"strength": 40,
 		"cost": 290,
 		"requiredTech": "Archaeology",
-		"uniques": ["May capture killed [Slime] units <with [95]% chance>", 
+		"uniques": ["May capture killed [Troll] units <with [95]% chance>", 
 					"May capture killed [Peuchen] units <with [95]% chance>", 
 					"May capture killed [Sandworm] units <with [95]% chance>", 
 					"May capture killed [Entmates] units <with [95]% chance>", 
@@ -2132,6 +2132,21 @@
 	},
 	
 	// Mythical Beast (Barbarians Monster)
+	{
+		"name": "Troll",
+		"unitType": "Anti-Cav",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 15,
+		"cost": 20,
+		"obsoleteTech": "Quintessence Force",
+		"uniques": ["[+200]% Strength <when defending>", 
+					"[-75]% Strength <vs [Mage] units>", 
+					"[-75]% Strength <vs [Monk] units>", 
+					"Limited to [10] per Civilization", 
+					"Beast"],
+		"attackSound": "nonmetalhit"
+	},
 	{
 		"name": "Slime",
 		"unitType": "Anti-Cav",
