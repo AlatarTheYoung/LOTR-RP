@@ -17,6 +17,18 @@
 		"cost": 60,
 		"uniques": ["Can build [Land] improvements on tiles"],
 	},
+		{
+		"name": "Peasant",
+		"replaces": "Worker",
+		"uniqueTo": "Gondor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 60,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"[-25]% construction time for [All] improvements",
+			],
+	},
 	{
 		"name": "Tavari Worker",
 		"replaces": "Worker",
