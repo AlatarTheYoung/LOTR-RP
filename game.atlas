@@ -3181,6 +3181,20 @@ TileSets/FantasyHex/Tiles/Ley Line
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Lodepit
+  rotate: false
+  xy: 1408, 1826
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Lodepit
+  rotate: false
+  xy: 1408, 1826
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Mammoth
   rotate: false
   xy: 1833, 1294
@@ -8478,20 +8492,6 @@ TileSets/HexaRealm/Tiles/Kyber Foundry
   xy: 1336, 1818
   size: 64, 64
   orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Lodepit
-  rotate: false
-  xy: 1408, 1826
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Lodepit
-  rotate: false
-  xy: 1408, 1826
-  size: 64, 56
-  orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Lonely Mountain

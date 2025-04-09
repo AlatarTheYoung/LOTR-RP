@@ -442,11 +442,38 @@
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-            "[+1 Production, +1 Gold, +1 Science, +1 Culture]",// <in [Capital] cities>", 
-			  "Can be built just outside your borders", "Nullifies all other stats this tile provides", 
+            "[+1 Production, +1 Gold, +1 Science, +1 Culture, -2 Food]",// <in [Capital] cities>", 
+			"Can be built just outside your borders",
             "Pillaging this improvement yields approximately [+20 Gold]", 
             "Tile provides yield without assigned population", 
             "Gain control over [{non-[Major]} {non-[AI player]} {non-[City-State]}] tiles in a [0]-tile radius", 
+        ]
+	},
+	{
+		"name": "March of Gondor",
+		"uniqueTo": "Gondor",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			 "Can be built just outside your borders", 
+            "Pillaging this improvement yields approximately [+20 Gold]", 
+            "Gain control over [{non-[Major]} {non-[AI player]} {non-[City-State]}] tiles in a [0]-tile radius",
+			"Adjacent enemy units ending their turn take [15] damage",
+			"Gives a defensive bonus of [80]%",
+			"Only available <with [0] to [0] neighboring [March of Gondor] tiles>",
+			"Removes removable features when built", 
+        ]
+	},
+	{
+		"name": "Tunnels",
+		"uniqueTo": "Goblins",
+		"production": 1,
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Mountain"],
+		"uniques": [
+            "Pillaging this improvement yields approximately [+20 Gold]", 
+            "[+2 Gold] for each adjacent [Cliff]",
+			"[+1 Food] <after discovering [Architecture]>",
         ]
 	}, 
 

@@ -189,7 +189,6 @@
 		"uniques": [
 			"[+25]% Production when constructing [Land] units [in all cities]",
 			"[-25]% maintenance costs <for [All] units>",
-			"[+1 Production] from [Mountain] tiles [in all cities]"
 			],
 		"cities": ["Moria","Goblin town","Withered Heath","Ettenmoors","High Pass","Misty Mountains","Grey Mountains","Dwarrodelf","Glaurung","Ancalagon","Scatha","Gram Mountain","Rhimdath","Cold Fields","Hoardale"]
 	},
@@ -214,8 +213,8 @@
 		
 		"tradeRequest": "Want to trade?",
 				
-		"outerColor": [219, 210, 75],
-		"innerColor": [89, 88, 74],
+        "outerColor": [ 53,0,87],
+        "innerColor": [238,201,9],
 		"uniqueName": "Sons of Aule",
 		"uniques": [
 			"Can build [Mine] improvements at a [+20]% rate",
