@@ -64,7 +64,6 @@
 		"uniques": [
 			"[+20]% Strength <when attacking>",
 			"[-10]% Strength <when defending>",
-			"[+25]% Production when constructing [Land] units [in all cities]",
 			"[-25]% maintenance costs <for [All] units>",
 			],
 		"cities": ["Barad Dur","Orodruin","Gorgoroth","Udun","Nurn","Dagorlad","Durthang","Cirith Gorgor","Ered Lithui","Ered Duath","Cirith Ungol","Morgul Pass","Black Gate","Nargroth","Morgai","Morannon","Seregost","Lithlad","Carach Angren"]
