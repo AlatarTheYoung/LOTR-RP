@@ -117,6 +117,7 @@
 	},
 	{
 		"name": "King",
+		//"name": "MajorUpdate1",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,

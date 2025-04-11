@@ -28,7 +28,8 @@
         ]
     },
     {
-        "name": "Standard",
+        //"name": "Standard",
+		"name": "Update1",
         "modifier": 1.0,
         "productionCostModifier": 1.0,
         "goldCostModifier": 1.0,
