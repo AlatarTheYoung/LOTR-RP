@@ -10,6 +10,20 @@
 		"shortcutKey": "F"
 	},
 	{
+		"name": "Wild Pasture",
+		"uniqueTo":"Rohan",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Trapping",
+		"uniques": ["Can also be built on tiles adjacent to fresh water", 
+					"[+1 Food] <after discovering [Education]>",
+					"Only available <with [1] to [6] neighboring [Horses] tiles>",
+					"Provides [1] [Horses]",
+					],
+		"shortcutKey": "F"
+	},
+	{
 		"name": "Slave Farm",
 		"uniqueTo":"Mordor",
 		"terrainsCanBeBuiltOn": ["Volcanic Soil"],
@@ -18,6 +32,23 @@
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water", 
 					"[+1 Food] <after discovering [Education]>"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Pipe Weed Farm",
+		"uniqueTo": "The Shire",
+		"terrainsCanBeBuiltOn": ["Grassland"],
+		"food": 1,
+		"gold": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Calendar",
+		"uniques": [
+			"[+1 Food] <after discovering [Education]>"],
+			"[+2 Science] <after discovering [Guilds]>",
+			"[+2 Culture] <after discovering [Economics]>",
+			"Pillaging this improvement yields approximately [+18 Gold]",
+			"Only available <with [0] to [0] neighboring [Pipe Weed Farm] tiles>",
+		],
 		"shortcutKey": "F"
 	},
 	{

@@ -160,6 +160,26 @@
 		]
 	},
 	{
+		"name": "Lockholes", 
+		"replaces": "Granary",
+		"uniqueTo": "The Shire",
+		"culture": 1,
+		"cityStrength": 2,
+		"cityHealth": 25,
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]", 
+					"[+1 Food] from [Bananas] tiles [in this city]", 
+					"[+1 Food] from [Wheat] tiles [in this city]", 
+					"[+1 Food] from [Corn] tiles [in this city]", 
+					"[+1 Food] from [Citrus] tiles [in this city]"],
+		"requiredTech": "Pottery",
+		"civilopediaText": [
+			{"text": "A building to store grain for human or animal (or both)."}
+		]
+	},
+	{
 		"name": "Steward Storehouse",
 		"replaces": "Granary",
 		"uniqueTo": "Gondor",
@@ -376,9 +396,9 @@
 		]
 	},
 	{
-		"name": "Cashier Stable", 
+		"name": "Mearas Stable", 
 		"replaces": "Stable",
-		"uniqueTo": "Thorin",
+		"uniqueTo": "Rohan",
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,

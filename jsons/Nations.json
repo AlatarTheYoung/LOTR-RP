@@ -41,7 +41,7 @@
 		"name": "Mordor",
 		"leaderName": "Sauron",
 		"adjective": ["Mordor"],
-		"style": "orc",
+		"style": "Orc",
 		"startBias": ["Mordor Plains"],
 		"preferredVictoryType": "Domination",
 		
@@ -104,7 +104,7 @@
 		"name": "Isengard",
 		"leaderName": "Saruman",
 		"adjective": ["Isengard"],
-				"style": "Orc",
+		"style": "Isengard",
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
 		
@@ -231,7 +231,7 @@
 		"name": "Rhun",
 		"leaderName": "Khamul",
 		"adjective": ["Easterling"],
-				"style": "Mote",
+		"style": "Orc",
 		"startBias": ["Plains","Desert"],
 		"preferredVictoryType": "Domination",
 		
@@ -261,7 +261,7 @@
 		"leaderName": "Suladan",
 		"adjective": ["Haradrim"],
 		"startBias": ["Desert"],
-				"style": "Mote",
+		"style": "Orc",
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "From the deserts of the South, Harad rises, torn between shadow and redemption.",
